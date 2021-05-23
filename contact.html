@@ -19,6 +19,26 @@
 
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+        <style>
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
+</style>
 <!--
     
 TemplateMo 559 Zay Shop
@@ -29,7 +49,9 @@ https://templatemo.com/tm-559-zay-shop
 </head>
 
 <body>
-    <!-- Start Top Nav -->
+        <a href="https://api.whatsapp.com/send?phone=5571996337771&text=Bom%20dia..%20Gostaria%20de%20fazer%20meu%20or%C3%A7amento!" class="float" target="_blank">
+<i class="fab fa-whatsapp my-float"></i>
+</a>
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
@@ -55,9 +77,7 @@ https://templatemo.com/tm-559-zay-shop
      <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                EGP
-            </a>
+            <img src="egplogo.png" alt=”some text” width=100 height=100>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -190,7 +210,9 @@ https://templatemo.com/tm-559-zay-shop
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">EGP</h2>
+                    <div class="logo">
+                        <img src="egplogo.png" alt=”some text” width=100 height=100>
+                    </div> 
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
@@ -198,7 +220,7 @@ https://templatemo.com/tm-559-zay-shop
                         </li>
                         <li>
                             <i class="fab fa-whatsapp"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">(71)99633-7771</a>
+                            <a class="text-decoration-none" href="tel:010-020-0340">(71)99633-7771 / (71)2202-6099</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
